@@ -1,9 +1,9 @@
 # 💳📊 SVM Classifier: Risco de Crédito & Análise Censitária
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 [![Pandas](https://img.shields.io/badge/Pandas-orange?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Support Vector Machines](https://img.shields.io/badge/Algorithm-SVM-lightgrey?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/svm.html)
+[![Support Vector Machines](https://img.shields.io/badge/Algorithm-SVM-lightgrey?style=for-the-badge&logo=scikit-learn&logoColor=reed)](https://scikit-learn.org/stable/modules/svm.html)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 [![Yellowbrick](https://img.shields.io/badge/Yellowbrick-green?style=for-the-badge&logo=yellowbrick&logoColor=white)](https://www.scikit-yb.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-darkblue?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
@@ -41,14 +41,14 @@ Este projeto explora o uso de **Support Vector Machines (SVM)** para classificar
 
  **classification_report_ credit**
 
-               precision    recall  f1-score   support
+                   precision    recall  f1-score   support
 
-           0       0.99      1.00      0.99       436
-           1       0.97      0.94      0.95        64
+               0       0.99      1.00      0.99       436
+               1       0.97      0.94      0.95        64
 
-    accuracy                           0.99       500
-   macro avg       0.98      0.97      0.97       500
-weighted avg       0.99      0.99      0.99       500
+        accuracy                           0.99       500
+       macro avg       0.98      0.97      0.97       500
+    weighted avg       0.99      0.99      0.99       500
 
 
 
@@ -61,14 +61,14 @@ weighted avg       0.99      0.99      0.99       500
 
  **classification_report_ census**
  
-               precision    recall  f1-score   support
+                   precision    recall  f1-score   support
 
-       <=50K       0.87      0.94      0.90      3693
-        >50K       0.75      0.58      0.66      1192
+           <=50K       0.87      0.94      0.90      3693
+            >50K       0.75      0.58      0.66      1192
 
-    accuracy                           0.85      4885
-   macro avg       0.81      0.76      0.78      4885
-weighted avg       0.84      0.85      0.84      4885
+        accuracy                           0.85      4885
+       macro avg       0.81      0.76      0.78      4885
+    weighted avg       0.84      0.85      0.84      4885
 
 
 ---
